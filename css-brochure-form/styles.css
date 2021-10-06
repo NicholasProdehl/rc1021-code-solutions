@@ -1,0 +1,23 @@
+h2 {
+  font-family: "Brandon Grotesque", sans-serif;
+  text-align: center;
+}
+
+div {
+  margin: 6px;
+  padding: 6px;
+  text-align: center;
+}
+
+div input {
+  padding: 6px;
+  width: 400px;
+  border-radius: 10px;
+  border-color: darkgrey;
+}
+
+div label {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
