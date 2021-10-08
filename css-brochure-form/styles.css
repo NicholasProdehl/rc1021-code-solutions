@@ -1,24 +1,44 @@
-h2 {
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+h3 {
   font-family: "Brandon Grotesque", sans-serif;
   text-align: center;
+  color: lightcoral;
+  font-weight: 500;
 }
 
 div {
-  margin: 6px;
+  margin: 3px;
   padding: 6px;
+  font-family: 'AtlasGrotesk', sans-serif;
 }
 
-div input {
-  padding: 6px;
-  width: 400px;
-  border-radius: 10px;
+input,
+select {
+  padding: 10px;
+  width: 450px;
+  border-radius: 5px;
+  border-width: 1px;
   border-color: darkgrey;
-  justify-content: center;
+  margin: 5px;
 }
 
 div label {
   font-size: 12px;
-  font-weight: bolder;
-  margin-left: 10px;
-  text-align: left;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border-width: 0;
+  padding: 10px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 370px;
 }
