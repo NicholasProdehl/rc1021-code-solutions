@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+
+.quarter-column {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+}
