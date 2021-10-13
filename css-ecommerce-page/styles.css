@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.fifth-column {
+  display: flex;
+  flex-basis: 20%;
+}
+
+.row {
+  display: flex;
+  flex-basis: 20%;
+}
+
+img {
+  width: 150px;
+  height: 280px;
+}
