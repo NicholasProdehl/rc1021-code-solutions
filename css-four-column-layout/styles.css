@@ -2,8 +2,36 @@
   display: flex;
 }
 
+.header {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .quarter-column {
   display: flex;
-  flex-basis: 25%;
   flex-direction: column;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.big-photos {
+  width: 150px;
+  height: 232.5px;
+}
+
+img.small-photos {
+  width: 50px;
+  height: 50px;
 }
