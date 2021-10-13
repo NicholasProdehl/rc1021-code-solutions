@@ -32,14 +32,16 @@
   left: 55px;
   position: absolute;
   z-index: -1;
+  filter: grayscale(30%);
 }
 
-.body :not(img) {
+.body :not(img):not(div) {
   width: 550px;
   top: 100px;
   left: 175px;
   position: relative;
   color: white;
+  z-index: 1;
 }
 
 body h1 {
