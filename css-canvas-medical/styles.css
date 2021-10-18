@@ -171,9 +171,7 @@ a {
 }
 
 .right-side {
-  display: flex;
   margin-right: 100px;
-  padding: 30px;
 }
 
 .ending {
@@ -189,13 +187,16 @@ a {
 
 .get-started2 {
   background-color: #2f4361;
-  padding: 14px;
-  border-radius: 8px;
+  border-radius: 4px;
   border-width: 0;
   color: white;
   font-size: 20px;
   font-weight: 100;
-  margin: 10px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 70px;
 }
 
 .left-column {
@@ -232,4 +233,17 @@ a {
 
 .learn p {
   color: #6d6e6e;
+}
+
+.footer {
+  background-color: #fafafa;
+  display: flex;
+  color: #6f6f6f;
+  padding: 30px;
+}
+
+.footer p {
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 30px;
 }
