@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+  z-index: 0;
+}
+
+.open-modal {
+  background-color: #4a4ae0;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 2px 0 2px grey;
+  border-width: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+
+.survey-page {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.survey-page-whole {
+  background-color: rgba(32, 22, 35, 0.7);
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
