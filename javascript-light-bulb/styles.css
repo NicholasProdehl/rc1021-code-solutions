@@ -1,0 +1,30 @@
+.background-bright {
+  background-color: #fdf9f2;
+}
+
+.background-dark {
+  background-color: #111;
+}
+
+.circle-bright {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #f7eb92;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 50px 0 orange;
+}
+
+.circle-dark {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #252525;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
