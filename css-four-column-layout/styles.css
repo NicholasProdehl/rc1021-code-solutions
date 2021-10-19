@@ -1,3 +1,8 @@
+* {
+  background-color: #f7f8fa;
+  font-family: Barlow, sans-serif;
+}
+
 .container {
   display: flex;
 }
@@ -5,13 +10,14 @@
 .header {
   display: block;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .row {
   display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
 }
 
 .quarter-column {
@@ -34,4 +40,12 @@ img.big-photos {
 img.small-photos {
   width: 50px;
   height: 50px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 10px;
 }
