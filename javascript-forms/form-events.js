@@ -13,9 +13,9 @@ function handleInput(event) {
   console.log(event.target.value);
 }
 
-var $name = document.forms[0].name;
-var $email = document.forms[0].email;
-var $message = document.forms[0].message;
+var $name = document.getElementById('contact-form').name;
+var $email = document.getElementById('contact-form').email;
+var $message = document.getElementById('contact-form').message;
 
 $name.addEventListener('focus', handleFocus);
 $name.addEventListener('blur', handleBlur);
