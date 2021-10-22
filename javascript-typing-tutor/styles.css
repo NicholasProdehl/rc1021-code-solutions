@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.grumpy {
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
