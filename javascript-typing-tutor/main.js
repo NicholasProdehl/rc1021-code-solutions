@@ -1,12 +1,13 @@
 var $letters = document.querySelectorAll('span');
-
+var i = 0;
 function handleKeyPress(event) {
-  for (var i = 0; i < $letters.length; i++) {
-    if (event.key === $letters[i]) {
-      $letters[i].className = 'green';
-      $letters[i].className = 'underlined';
-    }
+  if (event.key === $letters[i].textContent) {
+    $letters[i].className = 'green';
+    $letters[i + 1].className = 'underlined';
+    i++;
+  } else {
+    $letters[i].className = 'red underlined';
   }
 }
 
-$letters.addEventListener('keydown', handleKeyPress);
+document.addEventListener('keypress', handleKeyPress);
