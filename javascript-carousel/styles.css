@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourth-column {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  flex-basis: 25%;
+  justify-content: center;
+}
+
+.half-column {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+}
+
+.full-column {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
