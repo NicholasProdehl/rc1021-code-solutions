@@ -1,0 +1,144 @@
+    1  exit
+    2  dev info
+    3  cd ~/re[ps
+    4  cd ~/repos
+    5  cd rc1021-code-solutions/
+    6  git branch http-messages
+    7  git  switch http-messages
+    8  http https://example.com
+    9  http --verbose https://example.com
+   10  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+   11  code .
+   12  http --body GET https://example.com > index.html
+   13  git add .
+   14  git status
+   15  git commit -m "Finished HTTP Messages"
+   16  git push origin http-messages
+   17  git status
+   18  cd ~/repos
+   19  cd code-journal/
+   20  git branch
+   21  git branch user-can-edit-an-entry
+   22  git switch user-can-edit-an-entry
+   23  git pull origin master
+   24  code .
+   25  dev-exit
+   26  exist
+   27  exit
+   28  cd ~/repos
+   29  cd ajax-project/
+   30  code .
+   31  git add .
+   32  git status
+   33  git commit -m
+   34  git commit -m "Finished creating html setup for bitcoin valuation page"
+   35  git add .
+   36  git commit -m "Finished creating html setup for bitcoin valuation page"
+   37  git add .
+   38  git commit -m "Finished creating html setup for bitcoin valuation page"
+   39  git add .
+   40  git commit -m "Finished creating html setup for bitcoin valuation page"
+   41  git push origin issue-2-user-can-input-amounts
+   42  git status
+   43  git add .
+   44  git commit -m
+   45  git commit -m "Finished creating html setup for rest of crypto valuation pages"
+   46  git push origin issue-2-user-can-input-amounts
+   47  clear
+   48  cd
+   49  cd ~/repos
+   50  cd rc1021-code-solutions/
+   51  git branch es6-const-let
+   52  git switch es6-const-let
+   53  git status
+   54  code .
+   55  git add es6-const-let
+   56  git commit -m "Finished es6 Const Let"
+   57  git push origin es6-const-let
+   58  git status
+   59  git switch master
+   60  git branch es6-template-literals
+   61  git switch es6-template-literals
+   62  git add es6-template-literals
+   63  git commit -m "Finished es6 Template Literals"
+   64  git push origin es6-templates-literals
+   65  git push origin es6-template-literals
+   66  git switch master
+   67  git branch es6-destructuring
+   68  git switch es6-destructuring
+   69  git add es6-destructuring
+   70  git commit -m "Finished es6 Destructuring"
+   71  git push origin es6-destructuring
+   72  git switch master
+   73  git branch es6-arrow-functions
+   74  git switch es6-arrow-functions
+   75  git switch master
+   76  git branch command-line-basics
+   77  git switch command-line-basics
+   78  git status
+   79  code .
+   80  git switch master
+   81  git status
+   82  git switch command-line-basics
+   83  git status
+   84  pwd
+   85  cd command-line-basics
+   86  pwd
+   87  man
+   88  man man
+   89  man cat
+   90  cat laziness.txt
+   91  cat impatience.txt
+   92  cat hubris.txt
+   93  cat laziness.txt + impatience.txt + hubris.txt
+   94  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   95  cat three-virtues.txt
+   96  man ls
+   97  ls
+   98  ls -a
+   99  ls -F
+  100  man ls
+  101  ls lfz-staff/
+  102  ls -a lfz-staff/
+  103  ls -F lfz-staff/
+  104  ls -aF lfz-staff/ > lfz-staff/contents.txt
+  105  cat lfz-staff/contents.txt
+  106  man pwd
+  107  pwd
+  108  pwd i-was-here.txt
+  109  ls
+  110  pwd > i-was-here.txt
+  111  ls
+  112  man echo
+  113  echo "Hello World!"
+  114  echo "Hello World!" > hello.txt
+  115  cat hello.txt
+  116  man touch
+  117  touch tag-youre-it.txt
+  118  touch boop/boop.txt
+  119  touch snoot/boop.txt
+  120  touch > snoot/boop.txt
+  121  man touch
+  122  man mkdir
+  123  mkdir parent
+  124  ls
+  125  ls -F
+  126  mkdir -p parent/child/grandchild
+  127  touch > parent/child/grandchild/.gitkeep
+  128  touch parent/child/grandchild/.gitkeep
+  129  ls -a
+  130  man mv
+  131  mv pokiemans pokemon
+  132  man rm
+  133  rm lol.txt
+  134  ;s
+  135  ls
+  136  rm -r kill-me/
+  137  ls
+  138  ls -F
+  139  man cp
+  140  cp and-then.txt no-and-then.txt
+  141  cat and-then.txt no-and-then.txt
+  142  man history
+  143  history
+  144  history > command-history.txt
