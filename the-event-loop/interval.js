@@ -9,3 +9,4 @@ function handleInterval() {
   }
 }
 const cancel = setInterval(handleInterval, 1000);
+// Added this so I can commit.
