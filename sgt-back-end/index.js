@@ -43,7 +43,10 @@ app.post('/api/grades', (req, res) => {
     returning *
   `;
   db.query(sql, values)
-    .then(); // ended here.
+    .then(result => {
+      // const grades = result.rows[0];
+
+    });
 });
 
 app.listen(3000, () => {
