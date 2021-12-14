@@ -9,21 +9,21 @@ class CustomButton extends React.Component {
 
   render() {
     const clicks = this.state.clicks;
-    let id = '';
+    let className = '';
     if (clicks < 3) {
-      id = 'purple';
+      className = 'purple';
     } else if (clicks < 6) {
-      id = 'lPurple';
+      className = 'lPurple';
     } else if (clicks < 9) {
-      id = 'red';
+      className = 'red';
     } else if (clicks < 12) {
-      id = 'mustard';
+      className = 'mustard';
     } else if (clicks < 15) {
-      id = 'yellow';
+      className = 'yellow';
     } else {
-      id = 'white';
+      className = 'white';
     }
-    return <button onClick = {this.handleClick} className = {id}>Hot Button</button>;
+    return <button onClick = {this.handleClick} className = {className}>Hot Button</button>;
   }
 
   handleClick() {
