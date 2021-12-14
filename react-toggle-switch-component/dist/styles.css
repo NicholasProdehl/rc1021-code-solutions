@@ -1,0 +1,38 @@
+.on {
+  width: 160px;
+  height: 80px;
+  border-radius: 46px;
+  background-color: green;
+  border: solid 3px;
+  position: relative;
+}
+
+.off {
+  width: 160px;
+  height: 80px;
+  border-radius: 46px;
+  background-color: white;
+  border: solid 3px;
+  position: relative;
+}
+
+.shifter-on {
+  position: absolute;
+  top: -3px;
+  width: 80px;
+  height: 80px;
+  border-radius: 46px;
+  left: 80px;
+  background-color: black;
+  border: solid 3px;
+}
+
+.shifter-off {
+  position: absolute;
+  top: -3px;
+  width: 80px;
+  height: 80px;
+  border-radius: 46px;
+  background-color: black;
+  border: solid 3px;
+}
