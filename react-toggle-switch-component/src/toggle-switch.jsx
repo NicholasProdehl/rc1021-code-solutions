@@ -9,20 +9,19 @@ class ToggleSwitch extends React.Component {
 
   render() {
     const Switch = this.state.switch;
+    let shiftClass;
+    let mainClass;
     if (Switch) {
-      return (
-        <div className = "container">
-          <div onClick = {this.handleClick} className = "on">
-            <div className = "shifter-on"></div>
-          </div>
-          <p>On</p>
-        </div>
-      );
+      shiftClass = 'shifter-on';
+      mainClass = 'on';
+    } else {
+      shiftClass = 'shifter-off';
+      mainClass = 'off';
     }
     return (
       <div className = "container">
-        <div onClick = {this.handleClick} className = "off">
-          <div className = "shifter-off"></div>
+        <div onClick = {this.handleClick} className = {mainClass}>
+          <div className = {shiftClass}></div>
         </div>
         <p>Off</p>
       </div>
