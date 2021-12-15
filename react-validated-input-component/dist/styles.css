@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+}
+
+i {
+  position: relative;
+  top: 20px;
+}
+
+p,
+.fa-times {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
