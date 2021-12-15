@@ -4,9 +4,9 @@ class Stopwatch extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      player: false,
+      player: true,
       timer: 0,
-      myVar: undefined
+      myVar: ''
     };
     this.handlePlayer = this.handlePlayer.bind(this);
     this.handleStop = this.handleStop.bind(this);
@@ -18,18 +18,18 @@ class Stopwatch extends React.Component {
     if (Player) {
       return (
         <div className="container">
-          <i onClick = {this.handleClear} className="far fa-circle">
-            <p>{this.timer}</p>
-          </i>
+          <div onClick = {this.handleClear} className="circle">
+            <p>{this.state.timer}</p>
+          </div>
           <i onClick = {this.handlePlayer} className="fas fa-play"></i>
         </div>
       );
     }
     return (
       <div className="container">
-        <i onClick={this.handleClear} className="far fa-circle">
-          <p>{this.timer}</p>
-        </i>
+        <div onClick = {this.handleClear} className="circle">
+          <p>{this.state.timer}</p>
+        </div>
         <i onClick = {this.handleStop} className="fas fa-pause"></i>
       </div>
     );
