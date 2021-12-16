@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: left;
+}
+
+.modal {
+  display: flex;
+  background-color: white;
+  width: 20%;
+  height: 100%;
+  justify-content: column;
+}
