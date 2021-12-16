@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-const pubPath = path.join(__dirname, '/public');
+const pubPath = path.join(__dirname, 'public');
 
 console.log(pubPath);
 
