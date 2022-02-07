@@ -1,5 +1,12 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
 .container {
   display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .fifth-column {
@@ -9,10 +16,25 @@
 
 .row {
   display: flex;
-  flex-basis: 20%;
 }
 
 img {
-  width: 150px;
-  height: 280px;
+  width: 185px;
+  height: 300px;
+  object-fit: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.price {
+  margin: 0;
 }
