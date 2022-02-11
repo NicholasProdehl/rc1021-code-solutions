@@ -40,13 +40,22 @@ app.get('/api/notes', (req, res) => {
   res.json(appArray);
   res.sendStatus(200);
 });
+
 app.get('api/notes/:id', (req, res) => {
   const error = { error: 'id must be a positive integer' };
-  if (!isPositiveInteger(req.body)) {
+  if (!isPositiveInteger(req.params.id)) {
     res.json(error);
     res.sendStatus(400);
   }
-  res.json(notes.req.body);
+  const appArray = [];
+  for (const key in notes) {
+    appArray.push(notes[key]);
+  }
+  // const tempReqBody = req.params.id;
+  // console.log('temp req body: ', tempReqBody);
+  const notesId = appArray.map(({ tempReqBody }) => ({ tempReqBody }));
+  res.json(notesId);
+  res.sendStatus(200);
 });
 app.listen(3000, () => {
   // eslint-disable-next-line no-console
