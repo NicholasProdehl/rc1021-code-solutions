@@ -6,7 +6,8 @@ class Stopwatch extends React.Component {
     this.state = {
       player: true,
       timer: 0,
-      myVar: ''
+      myVar: '',
+      className: ''
     };
     this.handlePlayer = this.handlePlayer.bind(this);
     this.handleStop = this.handleStop.bind(this);
@@ -14,24 +15,19 @@ class Stopwatch extends React.Component {
   }
 
   render() {
-    const Player = this.state.player;
-    if (Player) {
-      return (
+    const player = this.state.player;
+    if (player) {
+      this.setState.className = 'fas fa-play';
+    } else {
+      this.setState.className = 'fas fa-pause';
+    }
+    return (
         <div className="container">
           <div onClick = {this.handleClear} className="circle">
             <p>{this.state.timer}</p>
           </div>
-          <i onClick = {this.handlePlayer} className="fas fa-play"></i>
+          <i onClick = {this.handlePlayer} className= {this.className}></i>
         </div>
-      );
-    }
-    return (
-      <div className="container">
-        <div onClick = {this.handleClear} className="circle">
-          <p>{this.state.timer}</p>
-        </div>
-        <i onClick = {this.handleStop} className="fas fa-pause"></i>
-      </div>
     );
   }
 
