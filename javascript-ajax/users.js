@@ -12,6 +12,5 @@ xhr.addEventListener('load', function (event) {
     temp.textContent = xhr.response[i].name;
     $userList.appendChild(temp);
   }
-
 });
 xhr.send();
